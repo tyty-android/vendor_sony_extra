@@ -23,6 +23,7 @@ android_app_import {
 	apk: "proprietary/system/priv-app/GamingAccessorySettings/GamingAccessorySettings.apk",
 	presigned: true,
 	preprocessed: true,
+	privileged : true,
    	dex_preopt: {
 		enabled: false,
 	},
@@ -35,6 +36,7 @@ android_app_import {
 	apk: "proprietary/system/priv-app/GamingFanService/GamingFanService.apk",
 	presigned: true,
 	preprocessed: true,
+	privileged : true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -47,6 +49,7 @@ android_app_import {
 	apk: "proprietary/system/priv-app/ThermalFanService/ThermalFanService.apk",
 	presigned: true,
 	preprocessed: true,
+	privileged : true,
 	dex_preopt: {
 		enabled: false,
 	},
