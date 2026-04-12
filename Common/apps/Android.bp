@@ -24,10 +24,8 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	preprocessed: true,
 	product_specific: true,
-	skip_preprocessed_apk_checks: true,
 }
 
 android_app_import {
