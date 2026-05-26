@@ -121,9 +121,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SomcCameraApp-Shimanto",
+	name: "SomcCameraApp-Chikugo",
 	owner: "sony",
-	apk: "SomcCameraApp-Shimanto/SomcCameraApp-Shimanto.apk",
+	apk: "SomcCameraApp-Chikugo/SomcCameraApp-Chikugo.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
