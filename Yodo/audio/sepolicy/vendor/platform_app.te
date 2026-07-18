@@ -1,9 +1,10 @@
-allow platform_app hal_dms_hwservice:hwservice_manager find;
+allow platform_app_all hal_dms_hwservice:hwservice_manager find;
 
-binder_call(platform_app, hal_dms_default)
+binder_call(platform_app_all, hal_dms_default)
 
-binder_call(platform_app, vendor_hal_idd_default)
+binder_call(platform_app_all, vendor_hal_idd_default)
 
-get_prop(platform_app, audio_config_prop)
+get_prop(platform_app_all, audio_config_prop)
 
 hal_client_domain(platform_app, hal_dms)
+hal_client_domain(platform_app_36, hal_dms)
